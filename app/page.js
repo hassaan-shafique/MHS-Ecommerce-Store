@@ -1,8 +1,21 @@
 
-export default function Home() {
+import React from 'react'
+import Login from '@/Components/Login'
+
+const page = () => {
   return (
-  <h1 className="text-center font-bold text-xs">  Welcome MHS E-Commerce </h1>   
-  
- 
+    <div>
+      <h1 className='text-center font-bold'> WELCOME TO MHS CLOTHING STORE</h1>
+      <Login/>
+    </div>
   )
 }
+
+export default page
+
+
+
+
+
+
+

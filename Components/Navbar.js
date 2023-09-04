@@ -1,11 +1,25 @@
-import React from 'react'
 
-const Navbar = () => {
-  return (
-    <div>
-      <h1> Welcome to MHS store</h1>
-    </div>
-  )
-}
+// import React from 'react';
 
-export default Navbar
+// function Navbar() {
+//   return (
+//     <nav>
+//       <div className="nav-left">
+//        <h1>MHS Store </h1>
+//       </div>
+//       <div className="nav-center">
+//         <ul>
+//           <li><a href="/Home">Home</a></li>
+//           <li><a href="/products">Products</a></li>
+//         </ul>
+//       </div>
+//       <div className="nav-right">
+//         <a href="/signin">Sign In</a>
+//         <a href="/cart">Cart</a>
+//       </div>
+//     </nav>
+//   );
+// }
+
+// export default Navbar;
+
