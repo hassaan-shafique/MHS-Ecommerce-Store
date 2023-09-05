@@ -13,7 +13,7 @@ function Signup() {
     try {
       const auth = getAuth();
       await createUserWithEmailAndPassword(auth, email, password);
-      // Redirect or perform other actions upon successful signup
+
     } catch (error) {
       console.error("Error signing up:", error);
     }
@@ -67,3 +67,4 @@ function Signup() {
 }
 
 export default Signup;
+
