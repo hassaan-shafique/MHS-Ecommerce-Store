@@ -51,7 +51,7 @@ const Home = () => {
 
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Hoodies</div>
-                       <button className='text-white bg-blue-600 rounded-full ml-[29%] py-3 px-3'>Buy Now</button>
+                       <button className='text-white bg-blue-600 rounded-full ml-[29%] py-2 px-3'>Buy Now</button>
                      </div>
                </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -65,7 +65,7 @@ const Home = () => {
 
                 <div class="px-6 py-3">
                     <div class="font-bold text-xl mb-2">Pants</div>
-                        <button className='text-white bg-blue-600 rounded-full ml-[29%] py-3 px-3'>Buy Now</button>
+                        <button className='text-white bg-blue-600 rounded-full ml-[29%] py-2 px-3'>Buy Now</button>
                      </div>
                </div>
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -79,7 +79,7 @@ const Home = () => {
 
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">shirts</div>
-                         <button className='text-white bg-blue-600 rounded-full ml-[29%] py-3 px-3'>Buy Now</button>
+                         <button className='text-white bg-blue-600 rounded-full ml-[29%] py-2 px-3'>Buy Now</button>
                      </div>
                </div>
            </div>
