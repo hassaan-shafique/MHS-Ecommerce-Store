@@ -1,21 +1,22 @@
-
+"use client"
 import React from 'react'
 import Login from '@/Components/Login'
-import Home from '@/Components/Home'
+import Image from 'next/image'
+import Home from '../Components/Home'
+import Navbar from '@/Components/Navbar'
+
 
 const page = () => {
   return (
     <div>
-      <h1 className='text-center font-bold'> WELCOME TO MHS CLOTHING STORE</h1>
-      <Login/>
-      <Home/>
+      <Navbar/>
+         {/* <Login/>   */}
+       <Home/>
     </div>
   )
 }
 
 export default page
-
-
 
 
 

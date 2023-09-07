@@ -63,12 +63,12 @@ function Login() {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            required
+            required 
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600"
+          className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600"
         >
           Login
         </button>
@@ -77,7 +77,7 @@ function Login() {
           onClick={toggleSignup}
           className="mt-2  text-blue-500 hover:underline text-right"
         >
-          Sign Up
+          Sign Up 
         </button>
       </form>
       ) : (

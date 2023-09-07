@@ -1,25 +1,72 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import Login from "./Login"
+import { useState } from 'react';
 
-// import React from 'react';
+const Navbar = () => {
+  const [showLogin, setShowLogin] = useState(false);
 
-// function Navbar() {
-//   return (
-//     <nav>
-//       <div className="nav-left">
-//        <h1>MHS Store </h1>
-//       </div>
-//       <div className="nav-center">
-//         <ul>
-//           <li><a href="/Home">Home</a></li>
-//           <li><a href="/products">Products</a></li>
-//         </ul>
-//       </div>
-//       <div className="nav-right">
-//         <a href="/signin">Sign In</a>
-//         <a href="/cart">Cart</a>
-//       </div>
-//     </nav>
-//   );
-// }
+  const toggleLogin = () => {
+    setShowLogin(!showLogin);
+  };
+  return (
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between ">
+        
+          {/* mhs clothing div */}
+         <div className="text-white text-xl font-semibold flex-grow text-start">
+           <h1 className='text-left'> <span className= "text-red-900">MHS</span> Clothing</h1>
+           </div>
 
-// export default Navbar;
+            {/* Right Section - Navigation Links */}
+            <div className="flex text-center mr-14 space-x-10"  >
+             <Link href="/" passHref className="text-white flex text-center" >
+             Home
+          </Link>
+          <Link href="/tshirts" passHref className="text-white flex text-center">
+            T-shirts
+          </Link>
+          <Link href="/hoodies" passHref className="text-white text center">
+          Hoodies
+          </Link>
+          <Link href="/pants" passHref className="text-white text-center ">
+           Pants
+          </Link>
+              </div>
 
+
+
+        <div className="mr-6"> 
+        <button  onClick= {toggleLogin} className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-300">
+        <Link href="/login" passHref className="text-white space-x-10">
+          
+             Login
+          </Link>
+          </button>
+          {showLogin && <Login />}
+          </div>
+        
+   <div className="flex items-center space-x-5 ml-4">
+  <Link href="/cart" passHref className="text-white">
+    <div className="relative">
+      <Image
+        src="/shopping-cart.svg"
+        alt="Shopping Cart"
+        width={37}
+        height={37}
+      />
+      {/* You can add a badge or count for the cart items here */}
+     
+    </div>
+  </Link>
+</div>
+
+
+
+      </div>
+        {/* <Login/> */}
+    </nav>
+  );
+};
+
+export default Navbar;
