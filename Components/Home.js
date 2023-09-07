@@ -30,9 +30,25 @@ const Home = () => {
          STYLE
           HERE</p>
 <br/>
-        <button type='submit' className="w-[16%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
+        <button type='submit' className="w-[16%] mt-14 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
           Buy Now
         </button> 
+      </div>
+         <hr className="mt-[6%]"/>
+      <div>
+        <h1 style={{fontSize:'45px'}} className=' flex justify-center text-bold mb-2text-xl'> TRENDING 
+        </h1>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg
+        ">
+       
+         <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p class="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+
+        </div>
       </div>
     </div>
 
