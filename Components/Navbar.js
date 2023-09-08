@@ -19,7 +19,7 @@ const Navbar = () => {
            </div>
 
             {/* Right Section - Navigation Links */}
-            <div className="flex text-center mr-14 space-x-10"  >
+            <div className="flex text-center  mt-2 mr-14 space-x-10"  >
              <Link href="/" passHref className="text-white flex text-center" >
              Home
           </Link>
