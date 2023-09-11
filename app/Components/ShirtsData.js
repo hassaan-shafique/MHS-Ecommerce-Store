@@ -5,7 +5,7 @@ import { images } from "@/next.config";
 const ShirtsData  = [
     {
         id:'1',
-        name :'Hoodie 1',
+        name :'Shirt 1',
         price : 1000,
         description: 'Cotton Shirt',
         image:"./shirts.jpg"

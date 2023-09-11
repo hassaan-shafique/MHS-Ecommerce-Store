@@ -12,7 +12,7 @@ const HoodiesData  = [
     },
     {
          id:'2',
-        name :'Hoodie 1',
+        name :'Hoodie 2',
         price : 1200,
         description: 'Hoodie',
         image:"./"
@@ -20,7 +20,7 @@ const HoodiesData  = [
     },
     {
           id:'3',
-        name :'Hoodie 1',
+        name :'Hoodie 3',
         price : 1200,
         description: 'Hoodie',
         image:"./"
@@ -28,14 +28,14 @@ const HoodiesData  = [
     },
     {
           id:'4',
-        name :'Hoodie 1',
+        name :'Hoodie 4',
         price : 1200,
         description: 'Hoodie',
         image:"./"
     },
     {
           id:'5',
-        name :'Hoodie 1',
+        name :'Hoodie 5',
         price : 1200,
         description: 'Hoodie',
         image:"./"
@@ -44,7 +44,7 @@ const HoodiesData  = [
     {
 
           id:'6',
-        name :'Hoodie 1',
+        name :'Hoodie 6',
         price : 1200,
         description: 'Hoodie',
         image:"./"

@@ -10,17 +10,17 @@ const Pant = () => {
       <ul className='flex text.center space-x-4 '>
         {PantsData.map((pants) => (
           <li key={pants.id}>
-          
-            {pants.name} 
-            {pants.description}
-            - ${pants.price}
-            <Image 
+         <Image 
                src="/pant3.jpg"
                alt='hoodies'
                height={400}
                width={400}
               
                  />
+            {pants.name} 
+            
+            - ${pants.price}
+           
 
           </li>
         ))}

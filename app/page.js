@@ -6,6 +6,7 @@ import Home from './Components/Home'
 import Navbar from '@/app/Components/Navbar'
 import Pant from '@/app/Components/Pant'
 import Shirt from './Components/Shirt'
+import Hoodie from './Components/Hoodie'
 
 
 
@@ -18,7 +19,7 @@ const page = () => {
        <Home/>
        <Pant/>
       <Shirt/>
-     
+     <Hoodie/>
     </div>
   )
 }
