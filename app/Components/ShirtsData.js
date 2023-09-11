@@ -8,7 +8,7 @@ const ShirtsData  = [
         name :'Hoodie 1',
         price : 1000,
         description: 'Cotton Shirt',
-        image:"./"
+        image:"./shirts.jpg"
 
     },
     {

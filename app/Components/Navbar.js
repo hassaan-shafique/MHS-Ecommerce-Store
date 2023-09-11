@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Login from "./Login"
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -15,26 +16,26 @@ const Navbar = () => {
         
           {/* mhs clothing div */}
          <div className="text-white text-xl font-semibold flex-grow text-start">
-           <h1 className='text-left'> <span className= "text-red-900">MHS</span> Clothing</h1>
+           <h1 className='text-left'> <span className= " text-red-900 italic ">MHS</span> Clothing</h1>
            </div>
 
             {/* Right Section - Navigation Links */}
             <div className="flex text-center  mt-2 mr-14 space-x-10"  >
-             <Link href="/" passHref className="text-white flex text-center" >
+             <Link href="/home" passHref className="text-white flex text-center" >
              Home
           </Link>
-          <Link href="/tshirts" passHref className="text-white flex text-center">
-            T-shirts
+          <Link href="/shirts" passHref className="text-white flex text-center">
+            T-shirts 
           </Link>
           <Link href="/hoodies" passHref className="text-white text center">
           Hoodies
           </Link>
-          <Link href="/pants" passHref className="text-white text-center ">
+          <Link href="" passHref className="text-white text-center ">
            Pants
           </Link>
               </div>
 
-
+            
 
         <div className="mr-6"> 
         <button  onClick= {toggleLogin} className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-300">

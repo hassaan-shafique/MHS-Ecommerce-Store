@@ -7,11 +7,11 @@ const PantsData  = [
         name :'Pant 1',
         price : 1200,
         description: 'Denim Pant',
-        image:"./"
+        Image:"./pant3.jpg"
 
     },
     {
-         id:'2',
+        id:'2',
         name :'Pant 2',
         price : 1200,
         description: 'Denim Pant',
@@ -19,7 +19,7 @@ const PantsData  = [
 
     },
     {
-          id:'3',
+        id:'3',
         name :'Pant 3',
         price : 1200,
         description: 'Denim pant',
@@ -27,14 +27,14 @@ const PantsData  = [
 
     },
     {
-          id:'4',
+        id:'4',
         name :'Pant 4',
         price : 1200,
         description: 'Denim Pant',
         image:"./"
     },
     {
-          id:'5',
+        id:'5',
         name :'Pant 5',
         price : 1200,
         description: 'Denim Pant',
