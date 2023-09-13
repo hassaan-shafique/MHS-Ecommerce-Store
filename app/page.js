@@ -17,9 +17,7 @@ const page = () => {
       <Navbar/>
          {/* <Login/>   */}
        <Home/>
-      <Pant/>
-      <Shirt/>
-     <Hoodie/>
+      
     </div>
   )
 }
