@@ -10,9 +10,9 @@ const Hoodie = () => {
     <Navbar/>
       <h1 className='text-center'>Hoodies</h1>
       <br/>
-      <ul className='flex text.center space-x-9'>
+      <ul className=' flex justify-center space-between h-[80%] w-[100%] space-x-[2%] mt-[12%]'>
         {HoodiesData.map((Hoodie) => (
-          <li key={Hoodie.id}>
+          <li key={Hoodie.id} className=' rounded overflow-hidden shadow-lg'>
            <Image 
                src="/Hoodie.jpg"
                alt='hoodies'
