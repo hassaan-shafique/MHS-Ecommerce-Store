@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 // import { useRouter } from "next/router"; // Import the useRouter hook
 import { useRouter } from 'next/navigation'
-import Signup from "./Signup";
+import Signup from "../Components/Signup";
 
 function Login() {
   const [email, setEmail] = useState("");

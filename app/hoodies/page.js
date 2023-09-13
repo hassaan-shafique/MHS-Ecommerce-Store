@@ -1,6 +1,6 @@
 // pages/hoodies.js
 import React from 'react';
-import HoodiesData from './HoodiesData';
+import HoodiesData from '../data/HoodiesData';
 import Image from 'next/image';
 
 const Hoodie = () => {

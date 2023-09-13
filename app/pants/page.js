@@ -1,6 +1,6 @@
 // pages/pants.js
 import React from 'react';
-import PantsData from './PantsData';
+import PantsData from '../data/PantsData';
 import Image from 'next/image';
 const Pant = () => {
   return (

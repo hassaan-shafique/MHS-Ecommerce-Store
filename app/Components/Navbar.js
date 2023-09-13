@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Login from "./Login"
+import Login from "../login/page"
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link href="/hoodies" passHref className="text-white text center">
           Hoodies
           </Link>
-          <Link href="" passHref className="text-white text-center ">
+          <Link href="/pants" passHref className="text-white text-center ">
            Pants
           </Link>
               </div>
@@ -38,7 +38,9 @@ const Navbar = () => {
             
 
         <div className="mr-6"> 
-        <button  onClick= {toggleLogin} className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-300">
+        <button  
+        // onClick= {toggleLogin}
+         className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-300">
         <Link href="/login" passHref className="text-white space-x-10">
           
              Login
@@ -48,13 +50,14 @@ const Navbar = () => {
           </div>
         
    <div className="flex items-center space-x-5 ml-4">
-  <Link href="/cart" passHref className="text-white">
-    <div className="relative">
+  <Link href="/" passHref className="text-white">
+    <div className="relative ">
       <Image
         src="/shopping-cart.svg"
         alt="Shopping Cart"
         width={37}
         height={37}
+// fill="white"
       />
       {/* You can add a badge or count for the cart items here */}
      

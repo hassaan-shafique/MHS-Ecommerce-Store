@@ -1,6 +1,6 @@
 // pages/shirts.js
 import React from 'react';
-import ShirtsData from './ShirtsData';
+import ShirtsData from '../data/ShirtsData';
 import Image from 'next/image';
 const Shirt = () => {
   return (
