@@ -26,7 +26,7 @@ const Navbar = () => {
              Home
           </Link>
           <Link href="/shirts" passHref className="text-white flex text-center">
-            T-shirts 
+            Shirts 
           </Link>
           <Link href="/hoodies" passHref className="text-white text center">
           Hoodies

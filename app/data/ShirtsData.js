@@ -8,7 +8,7 @@ const ShirtsData  = [
         name :'Shirt 1',
         price : 1000,
         description: 'Cotton Shirt',
-        image:"./shirt1.jpg"
+        imageUrl:"shirt1.jpg"
 
     },
     {
@@ -16,7 +16,7 @@ const ShirtsData  = [
         name :'Shirt 2',
         price : 1299,
         description: 'Cotton Shirt',
-        image:"./shirts2.jpg"
+        imageUrl:"shirts2.jpg"
 
     },
     {
@@ -24,7 +24,7 @@ const ShirtsData  = [
         name :'Shirt 3',
         price : 1499,
         description: 'Cotton Shirt',
-        image:"./shirts3.jpg"
+        imageUrl:"shirts3.jpg"
 
     },
     {
@@ -32,14 +32,14 @@ const ShirtsData  = [
         name :'Shirt 4',
         price : 1000,
         description: 'Cotton Shirt',
-        image:"./shirt4.jpg"
+        imageUrl:"shirt4.jpg"
     },
     {
           id:'5',
         name :'Shirt 5',
         price : 1899,
         description: 'Cotton Shirt',
-        image:"./shirt5.jpg"
+        imageUrl:"shirt5.jpg"
 
     },
     {
@@ -48,7 +48,7 @@ const ShirtsData  = [
         name :'Shirt 6',
         price :1699,
         description: 'Cotton Shirt',
-        image:"./shirt6.jpg"
+        imageUrl:"shirt6.jpg"
     }
  
 

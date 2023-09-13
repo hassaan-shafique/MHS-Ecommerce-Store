@@ -13,7 +13,7 @@ const Shirt = () => {
         {ShirtsData.map((shirt) => (
           <li key={shirt.id} className=' max-w-sm rounded overflow-hidden shadow-lg'>
            <Image 
-               src="/shirts2.jpg"
+               src= "/shirt1.jpg" 
                alt={shirt.name}
                height={850}
                width={850}
