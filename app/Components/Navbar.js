@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import Image from 'next/image';
 import Login from "../login/page"
@@ -21,7 +22,7 @@ const Navbar = () => {
 
             {/* Right Section - Navigation Links */}
             <div className="flex text-center  mt-2 mr-14 space-x-10"  >
-             <Link href="/home" passHref className="text-white flex text-center" >
+             <Link href="/" passHref className="text-white flex text-center" >
              Home
           </Link>
           <Link href="/shirts" passHref className="text-white flex text-center">

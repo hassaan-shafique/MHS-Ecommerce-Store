@@ -1,14 +1,16 @@
-// pages/hoodies.js
+"use client"
 import React from 'react';
 import HoodiesData from '../data/HoodiesData';
 import Image from 'next/image';
+import Navbar from '../Components/Navbar';
 
 const Hoodie = () => {
   return (
     <div>
+    <Navbar/>
       <h1 className='text-center'>Hoodies</h1>
       <br/>
-      <ul className='flex text.center space-x-4'>
+      <ul className='flex text.center space-x-9'>
         {HoodiesData.map((Hoodie) => (
           <li key={Hoodie.id}>
            <Image 

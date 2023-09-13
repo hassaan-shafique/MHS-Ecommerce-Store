@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from '../Components/Navbar'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
    
      
     <div>
+   
      <Image
       className=" border-rounded ml-[60%] my-6 rounded-lg shadow-md my-7"
      src ="/image4.png" 

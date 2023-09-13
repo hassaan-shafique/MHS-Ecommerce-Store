@@ -1,10 +1,12 @@
-// pages/pants.js
+"use client"
 import React from 'react';
 import PantsData from '../data/PantsData';
 import Image from 'next/image';
+import Navbar from '../Components/Navbar';
 const Pant = () => {
   return (
     <div>
+    <Navbar/>
       <h1 className='text-center'>Pants</h1>
       <br/>
       <ul className='flex text.center space-x-4 '>
