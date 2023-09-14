@@ -25,30 +25,30 @@ const HoodiesData  = [
         description: 'Hoodie',
         image:"./"
 
-    },
-    {
-          id:'4',
-        name :'Hoodie 4',
-        price : 1200,
-        description: 'Hoodie',
-        image:"./"
-    },
-    {
-          id:'5',
-        name :'Hoodie 5',
-        price : 1200,
-        description: 'Hoodie',
-        image:"./"
-
-    },
-    {
-
-          id:'6',
-        name :'Hoodie 6',
-        price : 1200,
-        description: 'Hoodie',
-        image:"./"
     }
+    // {
+    //       id:'4',
+    //     name :'Hoodie 4',
+    //     price : 1200,
+    //     description: 'Hoodie',
+    //     image:"./"
+    // }
+    // {
+    //       id:'5',
+    //     name :'Hoodie 5',
+    //     price : 1200,
+    //     description: 'Hoodie',
+    //     image:"./"
+
+    // },
+    // {
+
+    //       id:'6',
+    //     name :'Hoodie 6',
+    //     price : 1200,
+    //     description: 'Hoodie',
+    //     image:"./"
+    // }
 
 
 ]
