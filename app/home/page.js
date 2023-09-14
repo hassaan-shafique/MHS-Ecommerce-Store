@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '../Components/Navbar'
+import Footer from '../Components/footer'
 
 
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
          STYLE
           HERE</p>
              <br/>
-        <button type='submit' className="w-[16%] mt-14 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
+        <button type='submit' className="w-[16%] mt-14 bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
           Buy Now
         </button> 
       </div>
@@ -53,7 +54,7 @@ const Home = () => {
 
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Hoodies</div>
-                       <button className='text-white bg-blue-600 rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                       <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
                      </div>
                </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -67,7 +68,7 @@ const Home = () => {
 
                 <div class="px-6 py-3">
                     <div class="font-bold text-xl mb-2">Pants</div>
-                        <button className='text-white bg-blue-600 rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                        <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
                      </div>
                </div>
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -81,7 +82,7 @@ const Home = () => {
 
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">shirts</div>
-                         <button className='text-white bg-blue-600 rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                         <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
                          
                      </div>
                </div>
@@ -90,6 +91,7 @@ const Home = () => {
         <hr className="mt-[6%]"/>
 
       </div>
+      
     </div>
   )
  

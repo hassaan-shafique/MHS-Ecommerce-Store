@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import Home from './home/page'
 import Navbar from '@/app/Components/Navbar'
+import Footer from './Components/footer'
 
 
 
@@ -15,6 +16,7 @@ const page = () => {
       <Navbar/>
          {/* <Login/>   */}
        <Home/>
+       <Footer/>
       
     </div>
   )
