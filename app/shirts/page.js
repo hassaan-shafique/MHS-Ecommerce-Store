@@ -3,6 +3,8 @@ import React from 'react';
 import ShirtsData from '../data/ShirtsData';
 import Image from 'next/image';
 import Navbar from '../Components/Navbar';
+import PoloData from '../data/PoloData';
+import FormalData from '../data/FormalData';
 
 const Shirt = () => {
   
@@ -11,27 +13,76 @@ const Shirt = () => {
     <div>
    
     <Navbar/>
-      <h1 className="text-center">Shirts</h1>
+      <h1 className="text-center font-extrabold mt-10">T-Shirts</h1>
       <br/>
-      <ul  className=' flex justify-center space-between h-[80%] w-[100%] space-x-[4%] '>
-        {ShirtsData.map((shirt) => (
-          <li key={shirt.id} className=' rounded overflow-hidden shadow-lg'>
+      <div  className="flex justify-center space-between h-[80%] w-[100%] space-x-[2%] ">
+        {ShirtsData.map((shirts) => (
+          <div key={shirts.id} className="rounded overflow-hidden shadow-lg">
            <Image 
-               src= "/shirts2.jpg" 
-
-               alt={shirt.name}
-               height={850}
-               width={850}
+               src="/shirt1.jpg"
+               alt="shirts"
+             width={400}
+             height={400}
                  />
             
-            {shirt.name} <br/>
-            {shirt.description}
+            {shirts.name} <br/>
+            {shirts.description}
             <br/>
-             Rs{shirt.price}/-
+             Rs{shirts.price}/-
             
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
+      <div>
+        <h1 className="text-center font-extrabold  mt-10"> Polo`s</h1>
+        <br/>
+       <div  className="flex justify-center space-between h-[80%] w-[100%] space-x-[2%] ">
+        {PoloData.map((shirts) => (
+          <div key={shirts.id} className="rounded overflow-hidden shadow-lg">
+           <Image 
+               src="/polo2.jpg"
+               alt="shirts"
+             width={400}
+             height={400}
+                 />
+            
+            {shirts.name} <br/>
+            {shirts.description}
+            <br/>
+             Rs{shirts.price}/-
+            
+          </div>
+        ))}
+      </div>
+
+      </div>
+      <div>
+      <br/>
+        <h1  className="text-center font-extrabold">
+          Formal Shirts
+        </h1>
+        <br/>
+         <div  className="flex justify-center space-between h-[80%] w-[100%] space-x-[2%] ">
+        {FormalData.map((shirts) => (
+          <div key={shirts.id} className="rounded overflow-hidden shadow-lg">
+           <Image 
+               src="/formal1.jpg"
+               alt="shirts"
+             width={400}
+             height={400}
+                 />
+            
+            {shirts.name} <br/>
+            {shirts.description}
+            <br/>
+             Rs{shirts.price}/-
+            
+          </div>
+        ))}
+      </div>
+
+      </div>
+
 
     </div>
   );

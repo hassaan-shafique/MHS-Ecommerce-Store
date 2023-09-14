@@ -11,8 +11,8 @@ const Hoodie = () => {
       <h1 className='text-center'>Hoodies</h1>
       <br/>
       <ul className=' flex justify-center space-between h-[80%] w-[100%] space-x-[2%] mt-[12%]'>
-        {HoodiesData.map((Hoodie) => (
-          <li key={Hoodie.id} className=' rounded overflow-hidden shadow-lg'>
+        {HoodiesData.map((hoodies) => (
+          <li key={hoodies.id} className=' rounded overflow-hidden shadow-lg'>
            <Image 
                src="/Hoodie.jpg"
                alt='hoodies'
@@ -20,8 +20,7 @@ const Hoodie = () => {
                width={400}
               
                  />
-
-            {Hoodie.name} - ${Hoodie.price}
+            {hoodies.name} - ${hoodies.price}
           </li>
         ))}
       </ul>

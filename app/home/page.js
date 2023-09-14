@@ -59,7 +59,7 @@ const Home = () => {
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
               <Image 
                src="/Pant2.jpg"
-               alt='hoodies'
+               alt='pants'
                height={400}
                width={400}
                 className='h-[61%]'
@@ -73,7 +73,7 @@ const Home = () => {
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
               <Image 
                src="/shirts.jpg"
-               alt='hoodies'
+               alt='shirts'
                height={400}
                width={400}
               
