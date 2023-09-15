@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '../Components/Navbar'
+import Link from 'next/link'
 
 
 
@@ -76,50 +77,64 @@ const Home = () => {
         <h1 style={{fontSize:'45px'}} className=' flex justify-center text-bold mb-6 text-xl'> Explore MHS Clothing
         </h1>
            <br/>
-        <div className='flex justify-center space-between space-x-[3%]'>
+ 
+        <div className='flex justify-center space-between space-x-[10%]'>
+        <Link href="/hoodies">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
+           
               <Image 
                src="/Hoodie.jpg"
                alt='hoodies'
-               height={400}
-               width={400}
+               height={500}
+               width={500}
                  />
 
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Hoodies</div>
-                       <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                <div class="px-4 py-3">
+                   
+                       <button className='text-black bg-transparent border outline mr-2 py-1 px-1'>Hoodies</button>
                      </div>
                </div>
+           </Link>
+
+<Link href="/hoodies">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <Link href="/pants">
               <Image 
                src="/Pant2.jpg"
                alt='pants'
-               height={400}
-               width={400}
+               height={500}
+               width={500}
                 className='h-[61%]'
                  />
+                 </Link>
 
-                <div class="px-6 py-3">
-                    <div class="font-bold text-xl mb-2">Pants</div>
-                        <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                <div class="px-4 py-3">
+                    
+                        <button className='text-black bg-transparent border outline  mr-2 py-1 px-1'>Pants</button>
                      </div>
                </div>
+</Link>
+
+      <Link href="/shirts">
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
               <Image 
                src="/shirts.jpg"
                alt='shirts'
-               height={400}
-               width={400}
+               height={500}
+               width={500}
               
                  />
 
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">shirts</div>
-                         <button className='text-white bg-black rounded-full mr-2 py-2 px-3'>Buy Now</button>
+                <div class="px-4 py-3">
+                   
+                         <button className='text-black bg-transparent text-center border outline  mr-2 py-1 px-1'>Shirts</button>
                          
                      </div>
                </div>
+               </Link>
+
            </div>
+
         <br/>
         <hr className="mt-[6%]"/>
 
