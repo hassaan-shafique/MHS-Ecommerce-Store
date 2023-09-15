@@ -89,7 +89,7 @@ const Home = () => {
                width={500}
                  />
 
-                <div class="px-4 py-3">
+                <div className="px-2 py-2">
                    
                        <button className='text-black bg-transparent border outline mr-2 py-1 px-1'>Hoodies</button>
                      </div>
@@ -108,7 +108,7 @@ const Home = () => {
                  />
                  </Link>
 
-                <div class="px-4 py-3">
+                <div className="px-2 py-2">
                     
                         <button className='text-black bg-transparent border outline  mr-2 py-1 px-1'>Pants</button>
                      </div>
@@ -125,9 +125,9 @@ const Home = () => {
               
                  />
 
-                <div class="px-4 py-3">
+                <div className="px-2 py-2">
                    
-                         <button className='text-black bg-transparent text-center border outline  mr-2 py-1 px-1'>Shirts</button>
+                         <button className='text-black bg-transparent text-center border outline'>Shirts</button>
                          
                      </div>
                </div>

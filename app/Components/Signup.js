@@ -7,7 +7,7 @@ function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [gender, setGender] = useState ("");
-  const [age, setAge] =useState ("");
+  
   const [phonenumber, setPhoneNumber]= useState("");
 
 
@@ -89,7 +89,7 @@ function Signup() {
     <label  className="text-black"htmlFor="female">Female</label>
   </div>
 </div>
-    <div className="mb-6">
+    {/* <div className="mb-6">
       <label htmlFor="age" className="block text-gray-600 font-semibold">
         Age
       </label>
@@ -102,7 +102,8 @@ function Signup() {
         onChange={(e) => setAge(e.target.value)}
         required
       />
-    </div>
+    </div> */}
+
     <div className="mb-6">
       <label htmlFor="password" className="block text-gray-600 font-semibold">
         Phone No
