@@ -10,8 +10,40 @@ const Home = () => {
    
      
     <div>
+    
+    <div className=" relative  aspect-w-16 aspect-h-9">
+    
+          <video
+            className=" w-full h-full object-cover "
+            autoPlay
+            loop 
+            muted
+            style={{
+        position: "relative",
+        width: "100%",
+        height: "35rem",
+        left: 0,
+        top: 0,
+        }} 
+          >
+            <source src="/video.mp4" type="video/mp4" />
+           
+          </video>
+            <div className=" absolute top-0 left-0 right-0 p-4 text-white text-center bg-opacity-50 flex flex-col mt-[10%] ml-50 mr-[60%] ">
+        <p style={{ fontSize: '52px' }} className="text-xl font-semibold">FIND 
+        YOUR <br/> <br/><br/> 
+        <span className='text-red-700'>TRUE </span>  <br/> <br/> <br/>
+         STYLE
+          HERE</p>
+             <br/>
+        <button type='submit' className="w-[30%]  ml-[30%] mt-8 bg-red-400  hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full ">
+          Buy Now
+        </button> 
+      </div>
+
+        </div>
    
-     <Image
+     {/* <Image
       className=" border-rounded ml-[60%] my-6 rounded-lg shadow-md my-7"
      src ="/image4.png" 
      width ={140}
@@ -24,9 +56,9 @@ const Home = () => {
      width ={140}
      height ={140}
      alt ="front image"
-     />
+     /> */}
 
-        <div className="flex flex-col mt-[-400px] ml-14 ">
+        {/* <div className=" absolute top-0 left-0 right-0 p-4 text-white text-center bg-black bg-opacity-50 flex flex-col mt-[-1px] ml-14 ">
         <p style={{ fontSize: '48px' }} className="text-xl font-semibold">FIND 
         YOUR <br/> <br/><br/> 
         <span className='text-red-700'>TRUE </span>  <br/> <br/> <br/>
@@ -36,11 +68,12 @@ const Home = () => {
         <button type='submit' className="w-[16%] mt-14 bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
           Buy Now
         </button> 
-      </div>
+      </div> */}
+
          <hr className="mt-[6%]"/>
          <br/>
       <div>
-        <h1 style={{fontSize:'45px'}} className=' flex justify-center text-bold mb-6 text-xl'> TRENDING 
+        <h1 style={{fontSize:'45px'}} className=' flex justify-center text-bold mb-6 text-xl'> Explore MHS Clothing
         </h1>
            <br/>
         <div className='flex justify-center space-between space-x-[3%]'>
