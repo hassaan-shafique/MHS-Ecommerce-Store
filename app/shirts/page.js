@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Navbar from '../Components/Navbar';
 import PoloData from '../data/PoloData';
 import FormalData from '../data/FormalData';
-import Footer from '../Components/footer';
+import Footer from '../Components/Footer';
 
 const Shirt = () => {
   
@@ -150,6 +150,7 @@ const Shirt = () => {
       </div>
 
       </div>
+      <br/>
 
     <Footer/>
     </div>

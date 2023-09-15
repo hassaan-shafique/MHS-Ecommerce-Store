@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import Home from './home/page'
 import Navbar from '@/app/Components/Navbar'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 
 
 
@@ -16,7 +16,7 @@ const page = () => {
       <Navbar/>
          {/* <Login/>   */}
        <Home/>
-       <Footer/>
+      <Footer/>
       
     </div>
   )

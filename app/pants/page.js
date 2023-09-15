@@ -25,10 +25,10 @@ const Pant = () => {
             Rs{pants.price}/-
              
            <div className="mt-1">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-3 ml-[5%]">
+        <button className="bg-black  text-white font-semibold py-1 px-3 ml-[5%]">
           Buy Now
         </button>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-semibold py-1 px-3 ml-[25%] mb-[6%]">
+        <button className="bg-transparent border outline text-black font-semibold py-1 px-3 ml-[20%] mb-[6%]">
           Checkout
         </button>
       </div>
@@ -52,10 +52,10 @@ const Pant = () => {
              Rs{pants.price}/-
              
            <div className="mt-1">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-1 px-3 ml-[5%]">
+        <button className="bg-black text-white font-semibold py-1 px-3 ml-[5%]">
           Buy Now
         </button>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-semibold py-1 px-3 ml-[25%] mb-[6%]">
+        <button className="bg-transparent border outline  text-black font-semibold py-1 px-3 ml-[20%] mb-[6%]">
           Checkout
         </button>
       </div>
