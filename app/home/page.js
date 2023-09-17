@@ -96,9 +96,9 @@ const Home = () => {
                </div>
            </Link>
 
-<Link href="/hoodies">
+<Link href="/pants">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <Link href="/pants">
+           
               <Image 
                src="/Pant2.jpg"
                alt='pants'
@@ -106,7 +106,7 @@ const Home = () => {
                width={500}
                 className='h-[61%]'
                  />
-                 </Link>
+                
 
                 <div className="px-2 py-2">
                     
