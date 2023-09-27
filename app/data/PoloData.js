@@ -4,7 +4,7 @@ const PoloData  = [
         name :'Shirt 1',
         price : 1000,
         description: 'Cotton Shirt',
-        imageUrl:"shirt1.jpg"
+        imageUrl:"/polo1.jpg"
 
     },
     {
@@ -12,7 +12,7 @@ const PoloData  = [
         name :'Shirt 2',
         price : 1299,
         description: 'Cotton Shirt',
-        imageUrl:"shirts2.jpg"
+        imageUrl:"/polo2.jpg"
 
     },
     {
@@ -20,7 +20,7 @@ const PoloData  = [
         name :'Shirt 3',
         price : 1499,
         description: 'Cotton Shirt',
-        imageUrl:"shirts3.jpg"
+        imageUrl:"/polo3.jpg"
 
     },
     {
@@ -28,7 +28,7 @@ const PoloData  = [
         name :'Shirt 4',
         price : 1000,
         description: 'Cotton Shirt',
-        imageUrl:"shirt4.jpg"
+        imageUrl:"/polo4.jpg"
     }
     ]
 export default PoloData;
