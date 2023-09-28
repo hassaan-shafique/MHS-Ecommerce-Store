@@ -72,6 +72,7 @@ function Login() {
         >
           Login
         </button>
+        <span className="ml-2"> Dont have an account?       </span>
        <button
           type="button"
           onClick={toggleSignup}
@@ -81,6 +82,7 @@ function Login() {
         </button>
       </form>
       ) : (
+        
          <Signup/>
       )}
       </div>

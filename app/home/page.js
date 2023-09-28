@@ -30,12 +30,15 @@ const Home = () => {
             STYLE HERE
           </p>
           <br />
-          <button
-            type="submit"
-            className="w-[30%]  ml-[30%] mt-8 bg-red-400  hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full "
-          >
-            Buy Now
-          </button>
+          <Link href="/shirts">
+            <button
+              type="submit"
+              className="w-[30%]  ml-[1%] mt-8 bg-red-400  hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full "
+            >
+              Buy Now
+            </button>
+          </Link>
+          
         </div>
       </div>
 

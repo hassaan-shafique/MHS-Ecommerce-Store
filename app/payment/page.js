@@ -13,7 +13,7 @@ const OrderForm = () => {
     issueDate: "",
     expiryDate: "",
   });
-
+   <span>Welcome to the MHS clothing Website where we Sell the high quality products in town </span>
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
