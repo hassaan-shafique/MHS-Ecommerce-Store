@@ -41,7 +41,9 @@ const Home = () => {
           
         </div>
       </div>
-
+      {/* second part of the code  */}
+      {/* in which we have shown the pictures with the links in them  */}
+      
       <section class="text-gray-600 body-font">
         <div class="container px-6 py-[12%] mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
@@ -209,74 +211,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <hr className="mt-[6%]"/>
-         <br/>
-      <div>
-        <h1 style={{fontSize:'45px'}} className=' flex justify-center text-bold mb-6 text-xl'> Explore MHS Clothing
-        </h1>
-           <br/>
- 
-        <div className='flex justify-center space-between space-x-[10%]'>
-        <Link href="/hoodies">
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-           
-              <Image 
-               src="/Hoodie.jpg"
-               alt='hoodies'
-               height={500}
-               width={500}
-                 />
-
-                <div className="px-2 py-2">
-                   
-                       <button className='text-black bg-transparent border outline mr-2 py-1 px-1'>Hoodies</button>
-                     </div>
-               </div>
-           </Link>
-
-      <Link href="/pants">
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-           
-              <Image 
-               src="/Pant2.jpg"
-               alt='pants'
-               height={500}
-               width={500}
-                className='h-[61%]'
-                 />
-                
-
-                <div className="px-2 py-2">
-                    
-                        <button className='text-black bg-transparent border outline  mr-2 py-1 px-1'>Pants</button>
-                     </div>
-               </div>
-</Link>
-
-      <Link href="/shirts">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <Image 
-               src="/shirts.jpg"
-               alt='shirts'
-               height={500}
-               width={500}
-              
-                 />
-
-                <div className="px-2 py-2">
-                   
-                         <button className='text-black bg-transparent text-center border outline'>Shirts</button>
-                         
-                     </div>
-               </div>
-               </Link>
-
-           </div>
-
-        <br/>
-        <hr className="mt-[6%]"/>
-
-      </div> */}
+    
     </div>
   );
 };
